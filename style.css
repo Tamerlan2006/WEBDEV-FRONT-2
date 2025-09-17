@@ -1,6 +1,7 @@
 :root {
     --background-color: 1a1a1a;
     --text-color: #ffffff;
+    --accent-color: #e0e0e0;
 }
 
 html {
@@ -8,10 +9,13 @@ html {
     font-optical-sizing: auto;
     /* font-weight: <weight>; */
     font-style: normal;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 body {
     line-height: 1.6;
+    
 }
 
 .home-console {
@@ -21,7 +25,35 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
 
+.nav-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--accent-color);
 }
 
 /* .image-console {
