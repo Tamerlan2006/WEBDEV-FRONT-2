@@ -56,9 +56,39 @@ body {
     color: var(--accent-color);
 }
 
-/* .image-console {
-    
-} */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 26, 26, 0.6);
+    z-index: -1;
+}
+
+.image-console {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;   
+}
+
+.intro {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
 
 
 /* .zalando-sans-expanded-<uniquifier> {
