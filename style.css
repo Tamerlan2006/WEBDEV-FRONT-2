@@ -1,0 +1,45 @@
+:root {
+    --background-color: 1a1a1a;
+    --text-color: #ffffff;
+}
+
+html {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.home-console {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* .image-console {
+    
+} */
+
+
+/* .zalando-sans-expanded-<uniquifier> {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
