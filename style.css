@@ -203,6 +203,12 @@ body {
     color: var(--text-color);
 }
 
+.about-button {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
 /* .intro {
     margin-top: 20px;
     padding: 0 20px;
